@@ -82,8 +82,8 @@ function onSearchJson(json) {
 				'payment_method': 'paypal'
 			},
 			'redirect_urls': {
-				'return_url': "http://example.com/return",
-				'cancel_url': 'http://example.com/cancel'
+				'return_url': 'https://api-m.sandbox.paypal.com/v1/payments/payouts',
+				'cancel_url': 'https://api-m.paypal.com/v1/payments/payouts-item/cancel'
 			},
 			'transactions': [{
 				'amount': {
